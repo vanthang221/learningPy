@@ -19,3 +19,13 @@ print(txt)
 
 txt = "We are the so-called \"Vikings\" from the north."
 print(txt) 
+
+# viết hoa từ đầu tiên
+txt = "hello, and welcome to my world."
+x = txt.capitalize()
+print (x)
+
+# viết thường tất cả
+txt = "Hello, And Welcome To My World!"
+x = txt.casefold()
+print(x)
